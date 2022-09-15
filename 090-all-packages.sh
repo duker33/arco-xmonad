@@ -70,8 +70,10 @@ downgrade  # Bash script for downgrading one or more packages to a version in yo
 inxi  # Full featured CLI system information tool
 #
 # terminal
+zsh
 ripgrep
 xclip
+tree
 #
 # editor
 emacs
@@ -99,6 +101,7 @@ file-roller
 # Accessories
 keepassxc
 mintstick-git  # Format or write images to usb-sticks (Linux Mint tool)
+github-cli
 #
 # fonts
 arcolinux-fonts-git
@@ -161,7 +164,7 @@ syncthing
 )
 
 count=0
-for name in "${list[@]}" ; do
+
 	count=$[count+1]
 	tput setaf 3;echo "Installing package nr.  "$count " " $name;tput sgr0;
 	func_install $name
