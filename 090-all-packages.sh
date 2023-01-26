@@ -161,6 +161,35 @@ nss-mdns
 gvfs-smb
 httpie
 syncthing
+#
+mocp
+ranger
+pinta
+# ---
+# for ranger images preview
+ueberzug
+rclone
+pyright
+jq
+inetutils
+#
+fd
+cmake
+editorconfig-core-c
+npm
+haskell-language-server
+gnuplot
+python-isort
+python-pipenv
+python-pytest
+tidy
+shellcheck
+stylelint
+xdotool
+cabal-install
+graphviz
+discount
+hoogle
 )
 
 count=0
