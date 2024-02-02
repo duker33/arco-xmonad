@@ -182,6 +182,7 @@ gnuplot
 python-isort
 python-pipenv
 python-pytest
+ipython
 tidy
 shellcheck
 stylelint
@@ -190,6 +191,14 @@ cabal-install
 graphviz
 discount
 hoogle
+pandoc
+#
+# yubikey things
+ccid
+pcsclite
+#
+tor
+torbrowser-launcher
 )
 
 count=0
